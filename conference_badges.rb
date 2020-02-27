@@ -13,7 +13,7 @@ end
 
 def assign_rooms(y)
   assign = []
-  y.each_with_index {|name, index| assign << "Hello #{name}, You'll be assigned to  room #{index}!"}
+  y.each_with_index do {|name, index| assign << "Hello #{name}, You'll be assigned to  room #{index}!"}
   
   end
   assign
