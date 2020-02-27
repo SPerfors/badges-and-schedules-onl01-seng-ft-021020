@@ -19,7 +19,14 @@ def assign_rooms(y)
   assign
 end
 
-def printer
+def printer(a)
+  batch_badge_creator(a).each do |b|
+    puts b
+  end
+  assign_rooms(a).each do |b|
+    puts b
+  end
+end
   
   
 
