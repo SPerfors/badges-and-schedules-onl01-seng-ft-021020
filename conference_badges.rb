@@ -20,4 +20,5 @@ def assign_rooms(y)
 end
 
 def printer
+  
 
